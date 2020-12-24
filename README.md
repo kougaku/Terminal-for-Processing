@@ -13,7 +13,7 @@ Terminal term;
 void setup() {
   size(600, 600);
   
-  // 40 characters per line, 10 lines.
+  // create terminal. 40 characters per line, 10 lines.
   term = new Terminal(40, 10);
   
   // text size
@@ -23,7 +23,7 @@ void setup() {
 void draw() {
   background(50);
   
-  // terminal
+  // draw terminal
   translate(40, 30);
   term.draw();
 }
