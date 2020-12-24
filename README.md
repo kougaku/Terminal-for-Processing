@@ -6,7 +6,6 @@ This code is just example, not library, but it would be helpful.
 Please use Terminal.pde as library.
 
 
-### Minimum code:
 ```scala
 Terminal term;
 
